@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #ff0800;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #d9534f;
+}
+
+p {
+    color: #555;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #d9534f;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    
+   
+display: block;
+    margin-bottom: 5px;
+    color: #d9534f;
+}
+
+input, textarea {
+    width: 100%;
+    box-sizing: border-box; /* Asegura que el padding no incremente el tamaño total */
+    
+   
+padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+textarea {
+    resize: vertical; /* Permite cambiar solo la altura vertical del textarea */
+}
+
+button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    
+   
+border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff0800;
+}
+
+.home-button {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    
+   
+color: #fff;
+    background-color: #ff0800;
+    padding: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.home-button:hover {
+    background-color: #c9302c;
+}
