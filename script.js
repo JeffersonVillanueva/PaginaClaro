@@ -65,3 +65,14 @@ function ocultarDescripcion(descripcionId) {
     var banner = document.getElementById('banner');
     banner.style.opacity = '1';
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    var llamamosMessage = document.getElementById('llamamos-message');
+
+    setTimeout(function () {
+        llamamosMessage.style.display = 'block'; // Mostramos el mensaje
+        setTimeout(function () {
+            llamamosMessage.style.display = 'none'; // Ocultamos el mensaje después de unos segundos
+        }, 3000); // 3000 milisegundos = 3 segundos
+    }, 1000); // Mostrar el mensaje después de 1 segundo
+});
